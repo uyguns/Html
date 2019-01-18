@@ -1,0 +1,44 @@
+<!-- kullanıcıdan bağımsız animasyonlart yapabiliriz
+"infinite""  sonsuz döngüye girer  " 5s" saniye "alternate" animasyon geriye doğru gider. "ease-in-out"  geçiş efektini belirtir  "from" 
+animasyonun nereden başlayacağını" to" nerede biteceğini belirtir.
+-->
+<html>
+<head>
+  <style>
+  #animasyon {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    background: skyblue;
+      animation:animasyonum 5s infinite ease-in-out alternate;
+        -webkit-animation:animasyonum 5s infinite ease-in-out-alternate;
+  }
+  @keyframes animasyonum{
+    from{
+    background:skyblue
+    }
+    to{
+    background:violet
+    }
+  }
+  webkit- @keyframes animasyonum{
+    from{
+    background:skyblue
+    }
+    to{
+    background:violet
+    }
+  }
+
+  
+  </style>
+
+</head>
+<body>
+<div id="animasyon">
+  </div>
+
+
+</body>
+</html>

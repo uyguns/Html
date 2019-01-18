@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- form etiketi formumuzu oluştururuz. label etiket anlamına gelir formdaki başlıkları bu element içine yazarız  input veri almamızı sağlar.kullanıcıdan aldığımız verileri sunucuya gönderir.-->
+
+
+<form>
+	<label>Adiniz	:  </label> <input type="text" ><br/><br/>
+	<label>Soyadiniz:  </label> <input type="text" ><br/><br/>
+	<input type="submit" value="Gönder"/>
+<!--type text kullanıcıdan alınacak metinsel verileri sunucuya gönderir type="submit" ise verinin onaylanıp sunucuya gönderildiği düğmedir.value ile bu düğmenin görünen adını yazarız.-->
+
+</form>
+<!-- fieldset form elemanlarını bir araya toplayarak bir kutu çizer. bu etiketin başlık kısmını ise legend oluşturur-->
+
+<!--örnek 1-->
+<br>
+<form>
+	<fieldset>
+ 		<legend> Uye Bilgileri</legend>
+ 		<label>Adınız Soyadınız: 	</label>	<input type="text"/>	<br/><br/>
+ 		<label>E-Posta adresiniz: 	</label> 	<input type="text"/> 	<br/><br/>
+ 		<label>Dogum Tarihiniz: 	</label>  	<input type="text"/>  	<br/><br/>
+ 		<input type="Button" value="Onayla"/>
+	</fieldset>	
+</form>
+
+<!--örnek  2--> 
+<br>
+<form>
+	<fieldset>
+		<legend>Uye Bilgileri</legend>
+			<lebel>Adiniz Soyadınız: </lebel> <input type="text" > <!-- yanyana yapmak için kullanılır daha dopğrusu <br/ kullanılmaz-->
+			<lebel>E-Mail Adresiniz: </lebel> <input type="text" >
+			<lebel>Dogum Tarihiniz:  </lebel> <input type="text"> 
+			<input type="Button" value="Onayla">
+	</fieldset>
+</form>
+
+<!-- TEXTAREA  MESAJ YAZMA GİBİ BİR SATIRDAN FAZLA OLAN İŞLEMLER İÇİN KULLANILIR.-->
+
+	<br>
+<form>
+	<fieldset>
+		<legend>Uye Bilgileri</legend>
+			<lebel>Adiniz Soyadınız: </lebel> <input type="text" ><br> 
+			<lebel>E-Mail Adresiniz: </lebel> <input type="text" ><br>
+			<lebel>Dogum Tarihiniz:  </lebel> <input type="text"> <br>
+			<label> Mesajınız: </label> <textarea rows="2" cols="18"> </textarea> <br>
+			<!-- rows ve cols ile mesaj alanımızın buyuklüğünü belirttik-->
+			<input type="submit" value="Onayla"><!-- type="submit" formu Onaylayıp sunucuya göndeririz.-->
+			<input type="Reset" value="formu temizle"><!-- reset ile formu temizleyebiliriz.-->
+	</fieldset>
+</form>
+<!-- select ve option birlikte kullanımı açılır menü yapmamızı sağlar.-->
+<br>
+<form>
+	<select>
+	<option>seciniz</option>
+		<option>secenek1</option>
+		<option>secenek2</option>
+		<option>secenek3</option>
+	</select>
+</form>
+<!-- açılır menüde seöçimleri guruplandırabiliriz.-->
+<br>
+<form>
+	<select>
+		<option>Seciniz</option>
+		<option> Sayılar</option>
+		<optgroup>
+			<option>secenek 1</option>
+			<option>secenek 2</option>
+			<option>secenek 3</option>
+		</optgroup>
+		<option>harfler</option>
+		<optgroup>
+			<option>Harf 1</option>
+			<option>Harf 2</option>
+			<option>Harf 3</option>
+		</optgroup>	
+	</select>
+</form>
