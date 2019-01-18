@@ -1,0 +1,21 @@
+body {background-color: white; 
+	color: darkmagenta; 
+	font-family: verdana,monospace,sans-serif;
+	font-size: 12px;
+	font-weight: bold}
+
+.deneme{width: 600px;
+background-color: skyblue;
+color: darkslategray;
+font-size: 14px;
+padding:50px;
+margin-top: 15px}
+
+#ozel{
+width: 600px;
+background-color: violet;
+color: darkslategray;
+font-size: 14px,
+padding:50px;
+margin-top: 15px
+}

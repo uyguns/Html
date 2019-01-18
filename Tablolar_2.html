@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<table border="1" cellpadding="5">  <!--cellpadding iç hucre boşluğunu belirtir. yani hucre büyüklüğünü-->
+  <caption><b>AYLIK HASILAT</b></caption>
+  <!-- caption ile tablonun açıklamasını yapabiliriz.-->
+  <colgroup>
+   
+    <!-- colgroup birden fazla sutuna stil vermek için kullanırız.-->
+    <!-- col  column kısaltması sutunlara  sitil vermek için kullanılır.-->
+    <col style="background-color:skyblue;">  <!-- gok mavisi-->
+    <col style="background-color:lightgreen;"> <!-- açık yeşil-->
+    <col style="background-color:violet;">  <!--eflatun-->
+    </colgroup>
+
+    <thead>  <!-- tablo başlığı-->
+      <tr>
+        <th>Ay</th>
+        <th>Gelir</th>
+        <th>Gider</th>
+      </tr>
+      </thead>
+      <tbody>   <!-- tbody tablodaki asıl içeriği belirtir.-->
+      <tr>
+        <td>Ocak</td>
+        <td>100</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Şubat </td> 
+        <td>80 </td>
+        <td>10</td>
+      
+      </tr>
+       </tbody>
+       <tfoot>   <!--tablodaki içeriğin hesaplandığı son satırı oluşturur-->
+          <tr>
+            <td><font color="red">Toplam</font></td>
+            <td><font color="red">180</font></td>
+            <td><font color="red">30</font></td>
+                                                      
+          </tr>          
+              </tfoot>
+  </table>
+  <br>
+  <!--colspan  iki satırı birleştirmek için kullanılır -->
+
+  <table border="1"  cellpadding="5" style="text-align:center;">
+    <tr>
+      <th>Rumuz</th>
+      <th colspan="2">e posta</th>
+    </tr>
+  <tr>
+
+      <td>mehmet uygun</td>
+      <td>mehmetuygun82@hotmail.com</td>
+      <td>mehmeduygun82@gmail.com</td>
+    </tr>
+  
+  </table> 
+  <!-- rowspan  satırları birleştirir..-->
+  
+  <br>
+  <table border="1"  cellpadding="5" style="text-align:center;">
+ <tr>
+
+    <th>Rumuz</th>
+    <td>Mehmet Uygun</td>
+</tr>   
+  <tr>
+    <th rowspan="2"> E-Mail</th>
+    <td>mehmetuygun82@hotmail.com</td>
+    </tr>
+  <tr>
+    <td>mehmeduygun82@gmail.com</td>
+    </tr>
+  </table>

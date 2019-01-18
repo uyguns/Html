@@ -1,0 +1,46 @@
+.deneme{
+width:300px;
+height:300px;
+background:skyblue;
+transition: all 1s ease 
+
+
+}
+.deneme:hover{
+transform: translate(50px ,100px);
+-webkit-transform:translate(50px,100px);
+}
+.deneme2{
+width:300px;
+height:300px;
+background:skyblue;
+transition: all 1s ease 
+}
+
+.deneme2:hover{
+transform: scale(.5);
+-webkit-transform :scale(.5);
+}
+.deneme3{
+width:300px;
+height:300px;
+background:skyblue;
+transition: all 1s ease-in-out
+}
+.deneme3:hover{
+transform: rotate(45deg);
+-webkit-transform:rotate(45deg);
+
+}
+.deneme4{
+width:300px;
+height:300px;
+background:skyblue;
+transition: all 1s ease-in-out
+}
+.deneme4:hover{
+
+transform: skew(45deg);
+-webkit-transform:rotate(45deg);
+
+}

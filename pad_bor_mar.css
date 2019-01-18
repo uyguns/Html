@@ -1,0 +1,16 @@
+
+
+body { background-color: inherit;color:block;font-family: verdana;font-size: 16px;font-weight: bold }
+div{ width: 600px; height: 300px;background-color: skyblue;color:darkslategray;  font-size: 18px;
+	padding:30px;margin:50px 50px  50px  50px;border: 10px solid  black; border-radius: 30px}
+
+<!--hucre içi ve hucre dişını sola yasladık   yukarı sağ aşağı sol-->-->
+
+<!--aha önce oluşturduğumuz div'e 1px genişliğinde tipi solid (katı)  solid  (dotted(noktalı),
+	dashed(cizgili) ,groove(düz),double kullanabiliriz.)olan ve siyah renkte bir sınır ekledim  border-redius
+	 koseleri oval yapar. border-redius da koseleri farklı yaparak örneğin border-redius =30px 80px 50px 25 px yapabiliriz.-->
+
+
+	
+
+	

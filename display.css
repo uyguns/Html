@@ -1,0 +1,18 @@
+body{
+font-family: verdana,monospace,sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-align: justify;
+
+}
+.mavi{
+width: 300px;
+background-color: skyblue;
+padding: 20px;
+position: relative;
+float: left;
+margin-right: 20px;
+visibility: visible;
+opacity:0.5;
+display: none;
+}

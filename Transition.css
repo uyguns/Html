@@ -1,0 +1,15 @@
+#deneme{
+width: 200px;
+height: 200px;
+background-color: skyblue;
+transition-property: all;
+transition-duration: 1s;
+transition-timing-function: ease-in-out;
+transition: all 1s ease-in-out
+
+}
+
+#deneme:hover{
+	width: 300px;
+	height: 300px
+}

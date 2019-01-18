@@ -1,0 +1,85 @@
+<!--Özellik seçiciler
+bir elementin özellik secicisini kendşimiz secebiliriz.
+
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="ozel.css">
+	<title></title>
+</head>
+<body>
+	<div  zemzem> bu bir özel seçicidir.</div>
+
+<!--Torun secici deneme classı altında <p> elementi secilir.Aşağıdakilerin hepside değişiklikten etkilenir.
+.deneme p{
+	
+}
+-->
+
+<div class="deneme"> 
+ <p>bu dunya nedir_?</p>
+ <p>bu dunya nedir_?</p>
+ <p>bu dunya nedir_?</p>
+</div>	
+
+<!--cocuk secici sadece bir elementi değiştirir  div altında p altında span değişrir 
+div>p>span{
+	
+}
+  -->
+ <div >
+ 	<p>
+ <span>bu dunya?</span>
+ </p>
+ </div>
+<div>
+<span>bu dunya nedir_?</span>
+ </div>
+
+ <!-- doğrudan kardeş secici p den sonraki ilk span değişir
+ p+span{
+	
+ }
+-->
+
+<div class="deneme3">
+	<p>bu deneme yazısıdır</p>
+<span>merhaba</span><br>	
+<span>merhaba</span><br>	
+<span>merhaba</span><br>	
+	<p>deneme yazısı</p>
+</div>
+
+<!-- dolaylı kardes secici "p"den sonraki butun spanları değiştirir-->
+<div class="deneme4">
+	<p>merhaba</p>
+
+<span>olum sen ne diyon</span><br>
+<span>olum sen ne diyon</span><br>
+<span>olum sen ne diyon</span><br>
+<span>olum sen ne diyon</span><br>
+</div>
+
+<!-- gruplandırmalar tüm elementlerin bütün özelliklerini virgül ile tek seferde yazabiliriz.-->
+<div id="deneme1">
+    <span>Bu bir deneme yazısıdır.</span>
+</div>
+<div id="deneme2">
+    <span>Bu bir deneme yazısıdır.</span>
+</div>
+<div id="deneme3">
+    <span>Bu bir deneme yazısıdır.</span>
+</div>
+<div id="deneme4">
+    <span>Bu bir deneme yazısıdır.</span>
+</div>
+<div id="deneme5">
+    <span>Bu bir deneme yazısıdır.</span>
+</div>
+
+
+</body>
+</html>
+

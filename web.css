@@ -1,0 +1,76 @@
+body{
+margin:0px;
+padding: 0px;
+background-color: #BBBBBB;
+ }
+
+ *{
+	box-sizing: border-box;
+}
+
+.sayfa{
+width: 960px;
+margin: 0 auto;
+background-color:white
+}
+
+.logo{
+	background-color: #89196B;
+	color: white;
+	padding: 20px
+	
+}
+.menu {
+overflow:hidden;
+background-color: #333;
+}
+.menu ul{
+
+	margin:0px;
+	padding: 0px
+}
+.menu li{
+list-style-type:none;
+float: left;
+}
+.menu a{
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.menu a:hover {
+background-color: #ddd;
+color: black
+}
+
+.sutun{
+
+float: left;
+padding: 10px
+
+}
+.sol,.sag{
+width: 25%;
+
+}
+.orta{
+	width: 50%;
+}
+.icerik:after{
+content: "";
+display: table;
+clear: both;
+
+}
+.alt{
+	background-color: black;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+
+
+

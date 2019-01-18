@@ -1,0 +1,35 @@
+[zemzem]{
+
+	color: red;
+}
+ 
+
+ .deneme p{
+
+ 	color: skyblue
+ }
+
+ div>p>span{
+
+color: violet
+}
+
+.deneme3 p+span{
+
+	color: maroon
+}
+
+.deneme4  p~span{
+
+	color: blue
+}
+
+#deneme1,
+#deneme2,
+#deneme3 {
+    color: goldenrod;
+}
+#deneme4,
+#deneme5 {
+    color: royalblue;
+}

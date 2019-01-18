@@ -1,0 +1,20 @@
+body { 
+width: 700px; height: 250px;
+color:blue;
+border: 2px  solid gold;
+line-height: 20px ;
+letter-spacing: 2px;
+text-align: justify;
+text-decoration: underline;
+text-indent: 70px;
+text-shadow: 1px 2px 5px blue;
+text-transform: capitalize;
+}
+.deneme{
+width: 700px; height: 250px;
+color:blue;
+border: 2px  solid gold;
+text-transform: uppercase;
+white-space: pre;
+word-spacing: 10px
+}

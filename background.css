@@ -1,0 +1,45 @@
+html{
+	background: url("C:/Users/Uygun/Desktop/lacin.jpg");
+	background-size: cover;
+
+
+}
+
+body {
+    font-family: Verdana, monospace, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+
+
+body{
+font-family:verdana ,monospace,sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-align: justify;
+background-color: skyblue;
+background-image:url("C:/Users/Uygun/Desktop/indir.png");
+background-repeat:repeat;
+background-repeat:repeat-x;
+background-repeat: repeat-y;
+background-repeat: no-repeat;
+background-position:top center;
+background-attachment: scroll;
+background:url("C:/Users/Uygun/Desktop/indir.png") no-repeat center center scroll;
+
+}
+
+body {
+     font-family: Verdana, monospace, sans-serif;
+     font-size: 12px;
+     font-weight: bold;
+     text-align: justify;
+     min-height: 800px;
+     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
+background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+}

@@ -1,0 +1,60 @@
+.baslik{
+    width: 720px;
+    padding: 20px;
+    height: 110px;
+    position: relative;
+    margin: 15px auto;
+    background-color: gainsboro;
+    text-align: center;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 42px;
+    color: skyblue;
+    text-shadow:1px 5px 4px  black;
+}
+
+.baslik1{
+    width: 720px;
+    padding: 20px;
+    height: 110px;
+    position: relative;
+    margin: 15px auto;
+    background-color: gainsboro;
+    text-align: center;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 42px;
+    color: skyblue;
+    text-shadow:0 0 1px maroon;
+}
+#deneme7 {
+    width: 720px;
+    height: 300px;
+    position: relative;
+    margin: 25px auto;
+    background-color: gainsboro;
+    text-align: center;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 24px;
+    box-shadow:4px 4px 4px 10px  inset maroon 
+   }
+#deneme19 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 25px auto;
+    background-color: white;
+    text-align: center;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 24px;
+    line-height: 200px;
+    box-shadow: 0 0 45px black inset, 0 0 10px 4px black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+    #deneme19:hover {
+        box-shadow: 0 0 15px black inset, 0 0 5px 2px black;
+    }
+
+
+ 
+
